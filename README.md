@@ -1,3 +1,3 @@
 # LandingPage
 
-https://timbernetwork.github.io/
+https://timbernetwork.github.io/LandingPage/
