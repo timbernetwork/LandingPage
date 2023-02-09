@@ -1,298 +1,250 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Timber Network</title>
+	<title>Timber Network</title>
 
-    <link rel="icon" href="favicon.png">
+	<link rel="icon" href="favicon.png">
     <meta name="description" content="Timber Network is a cross-chain relayer" />
-    <meta name="author" content="TimberNetwork">
+	<meta name="author" content="TimberNetwork">
     <meta name="keywords" content="TimberNetwork, DeFi, DAO, decentralized autonomous organization" />
     <meta httpEquiv="content-language" content="en" />
     <meta name="robots" content="index, follow" />
-    <meta name="url" content="https://TimberNetwork.app" />
-    <meta name="identifier-URL" content="https://TimberNetwork.app" />
+    <meta name="url" content="https://timbernetwork.xyz" />
+    <meta name="identifier-URL" content="https://timbernetwork.xyz" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@GoTimberNetwork" />
     <meta name="twitter:title" content="Timber Network" />
     <meta name="twitter:description" content="Timber Network is a cross-chain relayer" />
     <meta name="twitter:creator" content="@GoTimberNetwork" />
-    <meta name="twitter:url" content="https://TimberNetwork.app" />
-    <meta name="twitter:image" content="TimberNetwork-logo-circle-200-bk.jpg" />
+    <meta name="twitter:url" content="https://timbernetwork.xyz" />
+    <meta name="twitter:image" content="TimberNetwork-logo-200-bk.jpg" />
 
-    <link rel="canonical" href="https://TimberNetwork.app" />
+    <link rel="canonical" href="https://timbernetwork.xyz" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-        rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
 
-    <style>
-        @font-face {
-            font-family: "timber";
-            src: url(img/timber.ttf) format("truetype");
-        }
+<style>
 
-        @media (max-width: 1200px) {
-            legend {
-                font-size: calc(1.275rem + 0.3vw);
-            }
+@font-face {
+    font-family: "timber";
+    src: url(img/timber.ttf) format("truetype");
+}
 
-            h1,
-            .h1 {
-                font-size: calc(1.375rem + 1.5vw);
-            }
-
-            h2,
-            .h2 {
-                font-size: calc(1.325rem + 0.9vw);
-            }
-
-            h3,
-            .h3 {
-                font-size: calc(1.3rem + 0.6vw);
-            }
-
-            h4,
-            .h4 {
-                font-size: calc(1.275rem + 0.3vw);
-            }
-
-            .display-1 {
-                font-size: calc(1.725rem + 5.7vw);
-            }
-
-            .display-2 {
-                font-size: calc(1.675rem + 5.1vw);
-            }
-
-            .display-3 {
-                font-size: calc(1.575rem + 3.9vw);
-            }
-
-            .display-4 {
-                font-size: calc(1.475rem + 2.7vw);
-            }
-
-            .close {
-                font-size: calc(1.275rem + 0.3vw);
-            }
-        }
+@media (max-width: 1200px) {
+  legend {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  h1,
+  .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  h2,
+  .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  h3,
+  .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+  h4,
+  .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .display-1 {
+    font-size: calc(1.725rem + 5.7vw);
+  }
+  .display-2 {
+    font-size: calc(1.675rem + 5.1vw);
+  }
+  .display-3 {
+    font-size: calc(1.575rem + 3.9vw);
+  }
+  .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+  .close {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+}
 
 
-        body {
-            font-family: 'Roboto', Helvetica, sans-serif;
-            background-color: #232323;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-        }
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	background-color: #111111;
+	color:#ffffff;
+	margin:0;
+	padding:0;
+}
+.displayFont {
+    font-family: "timber", Helvetica, sans-serif;
+}
+.hidden {display:none;}
+a:link, a:visited { 
+	color:#ffffff; 
+	border-color: #ffffff; 
+	text-decoration: underline; 
+}
+a:hover { color:#ffffff;  }
+a:hover.btn { 
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color:#333333;
+}
+a.btn {
+	text-decoration: none;
+}
 
-        .displayFont {
-            font-family: "timber", Helvetica, sans-serif;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        a:link,
-        a:visited {
-            color: #ffffff;
-            border-color: #ffffff;
-            text-decoration: underline;
-        }
-
-        a:hover {
-            color: #ffffff;
-        }
-
-        a:hover.btn {
-            background-color: #ffffff;
-            border-color: #ffffff;
-            color: #333333;
-        }
-
-        a.btn {
-            text-decoration: none;
-        }
-
-        /*footer { padding:0em 0; }
+/*footer { padding:0em 0; }
 footer .footerlogo {max-height:20px;}*/
 
-        nav .navbar-brand {
-            font-size: 2em;
-            font-weight: 500;
-            color: #ffffff;
-        }
-
-        nav.navbar {
-            padding-top: 0;
-            padding-bottom: 0;
-            margin-bottom: -5px;
-        }
-
-        nav.navbar a:link {
-            text-decoration: none;
-        }
-
-        nav.navbar a:hover {
-            text-decoration: underline;
-        }
-
-        body div.jumbotron {
-            background-color: transparent !important;
-        }
-
-        .bigText {
-            font-weight: 700;
-            font-family: 'Roboto Condensed', sans-serif;
-            color: rgba(0, 0, 0, 0);
-            -webkit-text-fill-color: none;
-            -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: #ffffff;
-        }
-
-        /*.bigTextLight {
-	-webkit-text-stroke-color: #333;
-}*/
-
-        .videodesc {
-            max-width: 500px;
-        }
-
-        /*.heroBk {
-	background-image: url('TimberNetwork-bk.svg');
-	background-repeat: no-repeat;
-	background-size:contain;
-	background-position: left bottom;
-}*/
-        /*
-@media (max-width: 768px) {
-	body main div.heroBk { 
-		background-position: left center;
-		background-size:cover;
-	}
+nav .navbar-brand { 
+	font-size:2em;
+	font-weight: 500;
+	color:#ffffff;
 }
-@media (min-width: 2450px) {  
-	body main div.heroBk { 
-		background-size:cover;
-	}   
+nav.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: -5px;
 }
-*/
+nav.navbar a:link { text-decoration: none; }
+nav.navbar a:hover { text-decoration: underline; }
 
-        /* .bkFull {
-	position:fixed;
-	width:100%;
-	height:100%;
-	background-image: url('TimberNetwork-bk.svg');
-	background-repeat: no-repeat;
-	background-size:cover;
-} */
-    </style>
+body div.jumbotron {background-color: transparent !important;}
+
+
+
+
+</style>
 </head>
 
 <body>
-    <!-- <div class="bkFull"></div> -->
-    <nav class="navbar navbar-expand-md">
-        <!-- 	<a class="navbar-brand" href="#">
+
+<nav class="navbar navbar-expand-md">
+<!-- 	<a class="navbar-brand" href="#">
 		<img src="TimberNetwork-logo-circle-200.png" alt="TimberNetwork Logo" style="max-height: 30px;">
 		TimberNetwork
 	</a> -->
-        <!-- 	<div class="navbar-brand">
+<!-- 	<div class="navbar-brand">
 		<img src="TimberNetwork-logo-circle-200.png" alt="TimberNetwork Logo" style="max-height: 60px;">
 	</div> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <!-- <li class="nav-item"><a class="nav-link" href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li> -->
-                <!-- <li class="nav-item"><a class="nav-link" href="" target="_blank"><i class="fab fa-discord"></i> Discord</a></li> -->
-                <!-- <li class="nav-item"><a class="nav-link" href="" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a></li> -->
-                <li class="nav-item"><a class="nav-link" href="https://github.com/timbernetwork/" target="_blank"><i
-                            class="fab fa-github"></i> Github</a></li>
-                <!-- <li class="nav-item"><a class="nav-link" href="https://hackmd.io/@timbernetwork/" target="_blank"><i class="fas fa-file-alt"></i> Docs</a></li> -->
-            </ul>
-        </div>
-    </nav>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item"><a class="nav-link" href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="" target="_blank"><i class="fab fa-discord"></i> Discord</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="https://github.com/timbernetwork/" target="_blank"><i class="fab fa-github"></i> Github</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="https://hackmd.io/@timbernetwork/" target="_blank"><i class="fas fa-file-alt"></i> Docs</a></li> -->
+        </ul>		
+	</div>
+</nav>
 
 
-    <main role="main">
+<main role="main">
 
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="col-md-9 text-center">
-                        <h1 class="displayFont display-2">Timber Network</h1>
-                        <h4>Trustless Incentivized Messaging Blockchain Encrypted Relayer.</h4><br><br>
-                        <p>
-                            <!-- <a class="btn btn-outline btn-lg" href="" target="_blank" role="button"><i class="fas fa-file-alt"></i> Get Invited</a> -->
-                            <a class="btn btn-outline btn-lg" href="https://github.com/timbernetwork" target="_blank"
-                                role="button"><i class="fab fa-github"></i> Github</a>
-                        </p><br>
+<div class="jumbotron">
+	<div class="container">
+		<div class="row justify-content-md-center">
+			<div class="col-md-8 text-center">
+				<h1 class="display-1">🌳🌐</h1>
+				<h1 class="displayFont display-2">Timber Network</h1>
+				<!-- <h4>Trustless Incentivized Messaging Blockchain Encrypted Relayer.</h4><br><br> -->
+				<h4 class="mb-4">Timber Network enables cross-chain interoperability by securely delivering messages between blockchains.</h4>
 
-                        <p>Timber Network is a blockchain interoperable messaging system which enables blockchains to
-                            securely interact with one
-                            another. Timber is powered by a network of relayer nodes and is secured by the Byzantine
-                            fault tolerant consensus algorithm Tendermint. Anyone is free to join, participate,
-                            and use Timber Network. <a
-                                href="https://matthewnolan.xyz/blog/secret-dao-voting-ethereum-with-timber-network/"
-                                target="_blank">More Info.</a>
-                        </p>
-                    </div>
+				<p>
+					<a class="btn btn-outline btn-lg" href="TimberVotingProtocol_0.1.pdf" target="_blank" role="button"><i class="fas fa-file-alt"></i> Whitepaper</a>
+					<a class="btn btn-outline btn-lg" href="https://github.com/timbernetwork" target="_blank" role="button"><i class="fab fa-github"></i> Github</a>
+				</p><br>
+				
+			</div>
 
-                </div>
-            </div>
-        </div>
+		</div> <!-- e row -->
+	</div>
+</div>
 
 
-        <div class="container">
+<div class="container-fluid">
 
-            <div class="row justify-content-md-center">
-                <div class="col-md-12 text-center">
-                    <div className="text-center embed-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xgD8ouIV50M" frameborder="0"
-                            allow="accelerometer;  clipboard-write; encrypted-media; gyroscope"
-                            allowfullscreen></iframe>
-                    </div>
-                    <!-- <p class="videodesc"><small>In this video I demonstrate an Ethereum DAO user doing secret ballot voting by using Timber Network to leverage the privacy features of Secret Network without having migrate their tokens off of Ethereum.</small></p> -->
-
-                </div>
-            </div>
+<div class="row justify-content-md-center">
+<div class="col col-md-4 mb-5">
+<p class="text-justify">Timber Network is a blockchain interoperable messaging system which enables blockchains to securely interact with one another. Timber is powered by a network of relayer nodes and is secured by Tendermint. Anyone is free to use Timber Network.
+</p>
+</div><!-- e col -->
+</div><!-- e row -->
 
 
-        </div> <!-- /container -->
-    </main>
+<div class="row justify-content-md-center ">
+<div class="col-md-12 text-center mt-5">
+	<div className="embed-container text-center">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/xgD8ouIV50M" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>
+	</div>
+<h2 class="display-4 mt-1">Secret Ballot DAO Voting on Ethereum</h2>
+</div><!-- e col -->
+</div><!-- e row -->
 
-    <footer class="footer mt-5">
-        <div class="container">
-            <div class="row">
-                <p>&copy; 2023</p>
-            </div>
-        </div>
-    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<div class="row justify-content-md-center">
+<div class="col-md-4 mb-5">
+<p class="text-justify">In this example Timber leverages the privacy of Secret Network to give DAOs on Ethereum secret ballot voting, without ever even having to bridge their ERC20 voting tokens. Blockchains shouldn't just talk, they should harmonize.
+<a href="https://matthewnolan.xyz/blog/secret-dao-voting-ethereum-with-timber-network/" target="_blank">More Info.</a> </p>
+</div>
+</div>
+
+
+<!-- <div class="row justify-content-md-center my-5">
+<div class="col-md-12 text-center">
+	<h2 class="display-4 mt-1">Encrypted Private DEX Orderbooks</h2>
+</div>
+<div class="col-md-4">
+<p class="text-justify">To prevent front running, In this example Timber leverages the privacy of Secret Network to give DAOs on Ethereum secret ballot voting, without ever even having to bridge their ERC20 voting tokens. Blockchains shouldn't just talk, they should harmonize.</p>
+</div> 
+</div>  -->
+
+
+<div class="row justify-content-md-center my-5">
+<div class="col-md-12 text-center">
+	<h4 class="mt-1">Governance</h4>
+</div>
+<div class="col-md-5">
+<p class="text-center">Timber Network is built and governed by TimberDAO.</p>
+</div> 
+</div> 
+
+
+
+</div> <!-- /container -->
+</main>
+
+
+
+
+
+
+
+<footer class="footer mt-5">
+	<div class="container">
+			<p class="text-center">&copy; 2023 Timber Network</p>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
-
 </html>

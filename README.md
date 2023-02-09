@@ -1,5 +1,5 @@
-# LandingPage
+# Timber Network LandingPage
 
 https://timbernetwork.github.io/LandingPage/
 
-http://timbernetwork.xyz/
+https://timbernetwork.xyz
